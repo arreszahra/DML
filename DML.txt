@@ -8,8 +8,8 @@ Insert Into Customer (customer_Id, customer_Name, customer_tel)
 
 Insert Into Product (Product_Id, product_Name, category, Price)
 Values
-(P01, Samsung Galaxy S20, Smartphone, 3299)
-(P02, ASUS Notebook, PC, 4599);
+(P01, 'Samsung Galaxy S20', 'Smartphone', 3299)
+(P02, 'ASUS Notebook', 'PC', 4599);
 
 
 
@@ -17,5 +17,5 @@ Values
 
 Insert Into Orders (Customer_id, Product_id, OrderDate, quantity, total_amount)
 Values
-(C01, P02, NULL, 2, 9198)
+(C01, P02, 'NULL', 2, 9198)
 (C02, P01, 28/05/2020, 1, 3299);
